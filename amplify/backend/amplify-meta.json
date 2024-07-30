@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-devember-dev-221823-authRole",
+      "UnauthRoleArn": "arn:aws:iam::819309226761:role/amplify-devember-dev-221823-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::819309226761:role/amplify-devember-dev-221823-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-devember-dev-221823-deployment",
+      "UnauthRoleName": "amplify-devember-dev-221823-unauthRole",
+      "StackName": "amplify-devember-dev-221823",
+      "StackId": "arn:aws:cloudformation:us-east-1:819309226761:stack/amplify-devember-dev-221823/5aab2040-d213-11ee-a869-121514c2f537",
+      "AmplifyAppId": "d25k73n8dbanqb"
+    }
+  },
+  "auth": {
+    "devember9a29075d": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-devember-dev-221823-deployment/amplify-cfn-templates/auth/devember9a29075d-cloudformation-template.json",
+        "logicalId": "authdevember9a29075d"
+      },
+      "lastPushTimeStamp": "2024-02-23T06:53:19.462Z",
+      "output": {
+        "UserPoolId": "us-east-1_fGUs28Sim",
+        "AppClientIDWeb": "4gbl8v3mhmlduivcchqcub30h6",
+        "AppClientID": "2agrdsut8mvb5l51r2itffvt8a",
+        "IdentityPoolId": "us-east-1:4f043a03-6703-4fbf-a52e-e79462600c5f",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:819309226761:userpool/us-east-1_fGUs28Sim",
+        "IdentityPoolName": "devember9a29075d_identitypool_9a29075d__dev",
+        "UserPoolName": "devember9a29075d_userpool_9a29075d"
+      },
+      "lastPushDirHash": "YKlaUd+OB//Zx/Q/X+h3lYqhiZY="
+    }
+  }
+}
